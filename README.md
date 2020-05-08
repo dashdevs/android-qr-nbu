@@ -10,7 +10,7 @@ An open source library for encoding, decoding and generating QR code according N
 
 Add the following dependency to your project `build.gradle` file:
 
-`implementation 'com.dashdevs.qr-nbu:qr-nbu-core:$latest_version`
+`implementation 'com.dashdevs.qr-nbu:qr-nbu-core:$latest_version'`
 
 If you want to use Camera for scanning QR code from sdk box:
 ```kotlin
