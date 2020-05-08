@@ -1,6 +1,22 @@
+apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+
+publish {
+
+    def groupProjectID = 'com.dashdevs.qr-nbu'
+    def artifactProjectID = 'qr-nbu-core'
+    def publishVersionID = '0.1.0'
+
+    userOrg = 'kkrasylnykov'
+    repoName = 'qr-nbu'
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'An open source library for encoding, decoding and generating QR code according National Bank of Ukraine requirements'
+    website = 'https://github.com/dashdevs/android-qr-nbu'
+}
 
 android {
     compileSdkVersion 29
