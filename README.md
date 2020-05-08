@@ -3,10 +3,10 @@ An open source library for encoding, decoding and generating QR code according N
 
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)	[![Version](https://img.shields.io/static/v1?label=Download&message=0.1.0&color=blue&style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
-###Authors
+## Authors
 [DashDevs LLC](https://www.dashdevs.com)
 
-###Usage
+## Usage
 
 Add the following dependency to your project `build.gradle` file:
 
@@ -83,5 +83,5 @@ If you are using your own Qr Scanner you can use just `QrCodeManager` instance f
         }
     }
 ```
-###License
+## License
 This sdk is licensed under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0). Check [LICENSE](https://github.com/dashdevs/android-qr-nbu/blob/master/LICENSE) file for more information.
